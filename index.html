@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF - 8">
+    <meta title="Prova Final - Tecnicas de Programação III">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="divPrincipal">
+        <h1>Consumo do Possante</h1>
+
+        <form>
+
+            <div class="linhaForm">
+                <label for="km_atual">KM Atual:</label>
+                <input type="number" name="km_atual" id="km_atual">
+            </div>
+
+            <div class="linhaForm">
+                <label for="km_anterior">KM Anterior:</label>
+                <input type="number" name="km_anterior" id="km_anterior">
+            </div>
+
+            <div class="linhaForm">
+                <label for="litros">Litros:</label>
+                <input type="number" name="litros" id="litros">
+            </div>
+
+            <div id="saveDiv">
+                <input type="button" value="Salvar" id="saveBtn">
+
+            </div>
+            
+
+        </form>
+        <p id="pStatus"></p>
+
+        <table id="myTable">
+            <thead>
+                <tr id="tituloTabela">
+                    <th colspan="4" >Histórico de consumo</th> 
+                </tr>
+                <tr>
+                    <th>KM Atual</th>
+                    <th>KM Anterior</th>
+                    <th>Litros</th>
+                    <th>KM/L</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="fusca">
+        <iframe  src="https://giphy.com/embed/3o6ozgHi0Fv82zA12M" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+body{
+    background-color: #a5d9d6;
+}
+
+#divPrincipal{
+    text-align: center;
+    position: absolute,fixed;
+    
+    
+}
+
+h1{
+    font-size: 4em;
+    background-color: #a5d9d6;
+    margin-top: 50px;
+
+}
+
+label{
+    font-size: 32px;
+}
+
+form{
+    margin: 50px;
+}
+
+.linhaForm{
+    display: inline;  
+    margin: 15px;
+    
+}
+
+input{
+    height: 30px;
+    vertical-align: top;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+}
+
+#saveDiv{
+    margin-top: 50px;
+}
+
+#saveBtn{
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
+#saveBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    transition: 1s;
+
+}
+
+#pStatus{
+    margin: 50px;
+    font-size: 3em ;
+    font-weight: bold;
+    color: red;
+}
+
+#tituloTabela{
+    text-transform: uppercase;
+}
+
+#myTable{
+    display: inline-block;
+    margin: 0 0 50px;
+    background: rgb(180, 180, 180);
+    color: white;
+}
+
+td, th{
+    border: solid;
+    border-style: dashed;
+    border-color: rgb(253, 207, 0);
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+#fusca{
+    text-align: center;
+}
